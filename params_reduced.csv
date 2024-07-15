@@ -1,0 +1,75 @@
+,0
+Intercept,-1.1930032320157336
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.East South Central]",0.2227169459303204
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.Pacific]",-0.27057859000090756
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.Mountain]",-0.1729695850127763
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.West South Central]",0.0335396878092122
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.New England]",-0.18887706465009002
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.East North Central]",0.1232057144646089
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.West North Central]",0.15294456523250768
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.Middle Atlantic]",-0.02362458757249696
+"C(_STATE, Treatment(reference=""South Atlantic""))[T.Territory]",-0.06431223872665491
+"C(GENHLTH, Treatment(reference=""Excellent""))[T.Very Good]",0.168232268810402
+"C(GENHLTH, Treatment(reference=""Excellent""))[T.Good]",0.35098139733652844
+"C(GENHLTH, Treatment(reference=""Excellent""))[T.Fair]",0.3815175837745406
+"C(GENHLTH, Treatment(reference=""Excellent""))[T.Poor]",0.2712666265396285
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.Private]",-0.08829016220757754
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.Medicare]",-0.26901055370638344
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.Medicaid]",0.2681371631345955
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.State]",0.18109963448909047
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.No coverage]",0.13105843181936264
+"C(PRIMINSR, Treatment(reference=""Employer""))[T.Other]",0.06556387135336225
+"C(PERSDOC3, Treatment(reference=""Yes, only one""))[T.Yes, more than one]",-0.16515481256427486
+"C(PERSDOC3, Treatment(reference=""Yes, only one""))[T.No]",0.05228116862605526
+"C(MEDCOST1, Treatment(reference=""No""))[T.Yes]",0.0744162074225151
+"C(CHECKUP1, Treatment(reference=""Within the past year""))[T.Within the past 2 years]",0.0937815570784926
+"C(CHECKUP1, Treatment(reference=""Within the past year""))[T.Within the past 5 years]",0.14190097274885108
+"C(CHECKUP1, Treatment(reference=""Within the past year""))[T.More than 5 years ago]",0.29698674712173895
+"C(CHECKUP1, Treatment(reference=""Within the past year""))[T.Never]",0.2700719613546199
+"C(EXERANY2, Treatment(reference=""Yes""))[T.No]",0.2549262136008851
+"C(SLEPTIM1, Treatment(reference=""7-9 hours""))[T.6 hours or less]",0.18749974245795853
+"C(SLEPTIM1, Treatment(reference=""7-9 hours""))[T.10 hours or more]",0.057633553011613284
+"C(LASTDEN4, Treatment(reference=""Within 1 year""))[T.Within 2 years]",0.22055024864019332
+"C(LASTDEN4, Treatment(reference=""Within 1 year""))[T.Within 5 years]",0.27938173112704034
+"C(LASTDEN4, Treatment(reference=""Within 1 year""))[T.More than 5 years]",0.4145076364552865
+"C(LASTDEN4, Treatment(reference=""Within 1 year""))[T.Never]",0.3863540450447329
+"C(RMVTETH4, Treatment(reference=""None""))[T.1 to 5]",0.1894572566930641
+"C(RMVTETH4, Treatment(reference=""None""))[T.6 or more, but not all]",0.4473797835263404
+"C(RMVTETH4, Treatment(reference=""None""))[T.All]",0.6250530241265156
+"C(MARITAL, Treatment(reference=""Married""))[T.Divorced]",0.34422915269678805
+"C(MARITAL, Treatment(reference=""Married""))[T.Widowed]",0.1032567384725138
+"C(MARITAL, Treatment(reference=""Married""))[T.Separated]",0.4046673907023995
+"C(MARITAL, Treatment(reference=""Married""))[T.Never married]",0.4239920536833107
+"C(MARITAL, Treatment(reference=""Married""))[T.Unmarried couple]",0.2532376257556577
+"C(EDUCA, Treatment(reference=""Graduated college""))[T.Up to 11th grade]",0.5917351087938209
+"C(EDUCA, Treatment(reference=""Graduated college""))[T.Graduated high school]",0.4534393953311566
+"C(EDUCA, Treatment(reference=""Graduated college""))[T.Up to 3 years of college]",0.3957808048003431
+"C(EDUCA, Treatment(reference=""Graduated college""))[T.8th grade or less]",0.2828013752244974
+"C(RENTHOM1, Treatment(reference=""Own""))[T.Rent]",0.19940662962607736
+"C(RENTHOM1, Treatment(reference=""Own""))[T.Other arrangement]",0.12986919877646877
+"C(VETERAN3, Treatment(reference=""No""))[T.Yes]",-0.20617939979968028
+"C(EMPLOY1, Treatment(reference=""Employed""))[T.Homemaker]",-0.11043047674398433
+"C(EMPLOY1, Treatment(reference=""Employed""))[T.Retired]",-0.6003907813112106
+"C(EMPLOY1, Treatment(reference=""Employed""))[T.Unable to work]",0.06897433767680607
+"C(EMPLOY1, Treatment(reference=""Employed""))[T.Other]",-0.14710605019837505
+"C(EMPLOY1, Treatment(reference=""Employed""))[T.Out of work]",0.07551091631437878
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.25,000-35,000]",0.09877769059011306
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.50,000-75,000]",-0.08562818400598192
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.75,000-100,000]",-0.12827024348106172
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.100,000-150,000]",-0.21924574175823625
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.150,000-200,000]",-0.2948689441166965
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.More than 200,000]",-0.5124417202535922
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.Less than 15,000]",0.1806225338842685
+"C(INCOME3, Treatment(reference=""35,000-50,000""))[T.15,000-25,000]",0.11681210956261699
+"C(FLUSHOT7, Treatment(reference=""Yes""))[T.No]",0.29142134551519294
+"C(PNEUVAC4, Treatment(reference=""Yes""))[T.No]",0.15344539014524708
+"C(TETANUS1, Treatment(reference=""Yes""))[T.No]",0.04796750766160512
+"C(HIVTST7, Treatment(reference=""No""))[T.Yes]",0.22613782290124973
+"C(HIVRISK5, Treatment(reference=""No""))[T.Yes]",0.27040063837149025
+"C(COVIDPOS, Treatment(reference=""Home test""))[T.Yes]",-0.42226959272256176
+"C(COVIDPOS, Treatment(reference=""Home test""))[T.No]",-0.3680184426817328
+PHYSHLTH,-0.002275775998299797
+MENTHLTH,0.008202586744739566
+CHILDREN,0.05324760385939009
+ALCDAY4,0.010417018901414108
+BMI,-0.03282064835445548

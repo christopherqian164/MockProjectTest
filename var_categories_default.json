@@ -1,0 +1,471 @@
+{
+	"_STATE": {
+		"var_map": {
+			"1.0": "Alabama",
+			"2.0": "Alaska",
+			"4.0": "Arizona",
+			"5.0": "Arkansas",
+			"6.0": "California",
+			"8.0": "Colorado",
+			"9.0": "Connecticut",
+			"10.0": "Delaware",
+			"11.0": "District of Columbia",
+			"12.0": "Florida",
+			"13.0": "Georgia",
+			"15.0": "Hawaii",
+			"16.0": "Idaho",
+			"17.0": "Illinois",
+			"18.0": "Indiana",
+			"19.0": "Iowa",
+			"20.0": "Kansas",
+			"21.0": "Kentucky",
+			"22.0": "Louisiana",
+			"23.0": "Maine",
+			"24.0": "Maryland",
+			"25.0": "Massachusetts",
+			"26.0": "Michigan",
+			"27.0": "Minnesota",
+			"28.0": "Mississippi",
+			"29.0": "Missouri",
+			"30.0": "Montana",
+			"31.0": "Nebraska",
+			"32.0": "Nevada",
+			"33.0": "New Hampshire",
+			"34.0": "New Jersey",
+			"35.0": "New Mexico",
+			"36.0": "New York",
+			"37.0": "North Carolina",
+			"38.0": "North Dakota",
+			"39.0": "Ohio",
+			"40.0": "Oklahoma",
+			"41.0": "Oregon",
+			"42.0": "Pennsylvania",
+			"44.0": "Rhode Island",
+			"45.0": "South Carolina",
+			"46.0": "South Dakota",
+			"47.0": "Tennessee",
+			"48.0": "Texas",
+			"49.0": "Utah",
+			"50.0": "Vermont",
+			"51.0": "Virginia",
+			"53.0": "Washington",
+			"54.0": "West Virginia",
+			"55.0": "Wisconsin",
+			"56.0": "Wymoming",
+			"60.0": "American Samoa",
+			"66.0": "Guam",
+			"69.0": "Northern Mariana Islands",
+			"72.0": "Puerto Rico",
+			"78.0": "U.S. Virgin Islands"
+		},
+		"var_type": "category",
+		"reference_level": "Delaware",
+	  "question": "What state do you live in?",
+		"section": "Demographics"
+	},	
+	"GENHLTH": {
+		"var_map": {
+			"1.0": "Excellent",
+			"2.0": "Very Good",
+			"3.0": "Good",
+			"4.0": "Fair",
+			"5.0": "Poor",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Excellent",
+		"question": "Would you say that in general your health is—",
+		"section": "Health Status"
+	},
+	"PHYSHLTH": {
+		"var_map": {
+			"88.0": "0",
+			"77.0": "Don't know",
+			"99.0": "Refused"
+		},
+		"var_type": "float32",
+		"reference_level": "0",
+		"question": "Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?",
+		"section": "Health Status"
+	},
+	"MENTHLTH": {
+		"var_map": {
+			"88.0": "0",
+			"77.0": "Don't know",
+			"99.0": "Refused"
+		},
+		"var_type": "float32",
+		"reference_level": "0",
+		"question": "Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?",
+		"section": "Health Status"
+	},
+	"PRIMINSR": {
+		"var_map": {
+			"1.0": "Employer",
+			"2.0": "Private",
+			"3.0": "Medicare",
+			"4.0": "Medigap",
+			"5.0": "Medicaid",
+			"6.0": "CHIP",
+			"7.0": "Military",
+			"8.0": "Indian",
+			"9.0": "State",
+			"10.0": "Other government",
+			"88.0": "No coverage",
+			"77.0": "Don't know",
+			"99.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Employer",
+		"question": "What is the current primary source of your health insurance?",
+		"section": "Healthcare Access"
+	},
+	"PERSDOC3": {
+		"var_map": {
+			"1.0": "Yes, only one",
+			"2.0": "Yes, more than one",
+			"3.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Yes, only one",
+		"question": "Do you have one person (or a group of doctors) that you think of as your personal health care provider?",
+		"section": "Healthcare Access"
+	},
+	"MEDCOST1": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "No",
+		"question": "Was there a time in the past 12 months when you needed to see a doctor but could not because you could not afford it?",
+		"section": "Healthcare Access"
+	},
+	"CHECKUP1": {
+		"var_map": {
+			"1.0": "Within the past year",
+			"2.0": "Within the past 2 years",
+			"3.0": "Within the past 5 years",
+			"4.0": "More than 5 years ago",
+			"7.0": "Don't know",
+			"8.0": "Never",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Within the past year",
+		"question": "About how long has it been since you last visited a doctor for a routine checkup?",
+		"section": "Healthcare Access"
+	},
+	"EXERANY2": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Yes",
+	  "question": "During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?",
+		"section": "Health Status"
+	},
+	"SLEPTIM1": {
+		"var_map": {
+			"77.0": "Don't know",
+			"99.0": "Refused"
+		},
+		"var_type": "float32",
+    "reference_level": "8",
+    "question": "On average, how many hours of sleep do you get in a 24-hour period?",
+		"section": "Health Status"
+	},
+	"LASTDEN4": {
+		"var_map": {
+			"1.0": "Within 1 year",
+			"2.0": "Within 2 years",
+			"3.0": "Within 5 years",
+			"4.0": "More than 5 years",
+			"5.0": "More than 5 years",
+			"7.0": "Don't know",
+			"8.0": "Never",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Within 1 year",
+	  "question": "Including all types of dentists, such as orthodontists, oral surgeons, and all other dental specialists, as well as dental hygienists, how long has it been since you last visited a dentist or a dental clinic for any reason?",
+		"section": "Oral Health"
+	},
+	"RMVTETH4": {
+		"var_map": {
+			"1.0": "1 to 5",
+			"2.0": "6 or more, but not all",
+			"3.0": "All",
+			"8.0": "None",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "None",
+	  "question": "Not including teeth lost for injury or orthodontics, how many of your permanent teeth have been removed because of tooth decay or gum disease? ",
+		"section": "Oral Health"
+	},
+	"MARITAL": {
+		"var_map": {
+			"1.0": "Married",
+			"2.0": "Divorced",
+			"3.0": "Widowed",
+			"4.0": "Separated",
+			"5.0": "Never married",
+			"6.0": "Unmarried couple",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Married",
+	  "question": "What is your marital status?",
+		"section": "Demographics"
+	},
+	"EDUCA": {
+		"var_map": {
+			"1.0": "Kindergarten or less",
+			"2.0": "Up to 8th grade",
+			"3.0": "Up to 11th grade",
+			"4.0": "Graduated high school",
+			"5.0": "Up to 3 years of college",
+			"6.0": "Graduated college",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Graduated college",
+	  "question": "What is the highest grade or year of school you completed?",
+		"section": "Demographics"
+	},
+	"RENTHOM1": {
+		"var_map": {
+			"1.0": "Own",
+			"2.0": "Rent",
+			"3.0": "Other arrangement",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Own",
+	  "question": "Do you own or rent your home?",
+		"section": "Demographics"
+	},
+	"CPDEMO1C": {
+		"var_map": {
+			"7.0": "Don't know",
+			"8.0": "0",
+			"9.0": "Refused",
+			"6.0": "Six or more"
+		},
+		"var_type": "category",
+		"reference_level": "0",
+		"question": "How many cell phones do you have for your personal use?"	,
+		"section": "Demographics"
+	},
+	"VETERAN3": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "No",
+	  "question": "Have you ever served on active duty in the United States Armed Forces, either in the regular military or in a National Guard or military reserve unit?",
+		"section": "Demographics"
+	},
+	"EMPLOY1": {
+		"var_map": {
+			"1.0": "Employed",
+			"2.0": "Self-employed",
+			"3.0": "Out of work for 1 year or more",
+			"4.0": "Out of work for less than 1 year",
+			"5.0": "Homemaker",
+			"6.0": "Student",
+			"7.0": "Retired",
+			"8.0": "Unable to work",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Employed",
+	  "question": "What is your employment status?",
+		"section": "Demographics"
+	},
+	"CHILDREN": {
+		"var_map": {
+			"88.0": "0",
+			"99.0": "Refused"
+		},
+		"var_type": "float32",
+		"reference_level": "0",
+    "question": "How many children less than 18 years of age live in your household?",
+		"section": "Demographics"
+	},
+	"INCOME3": {
+		"var_map": {
+			"1.0": "Less than 10,000",
+			"2.0": "10,000-15,000",
+			"3.0": "15,000-20,000",
+			"4.0": "20,000-25,000",
+			"5.0": "25,000-35,000",
+			"6.0": "35,000-50,000",
+			"7.0": "50,000-75,000",
+			"8.0": "75,000-100,000",
+			"9.0": "100,000-150,000",
+			"10.0": "150,000-200,000",
+			"11.0": "More than 200,000",
+			"77.0": "Don't know",
+			"99.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "35,000-50,000",
+	  "question": "What is your annual income, from all sources?",
+		"section": "Demographics"
+	},
+	"WEIGHT2": {
+		"var_map": {
+			"7777.0": "Don't know",
+			"9999.0": "Refused"
+		},
+		"reference_level": "200",
+		"var_type": "float32",
+    "question": "About how much do you weigh without shoes?",
+		"section": "Demographics"
+	},
+	"HEIGHT3": {
+		"var_map": {
+			"7777.0": "Don't know",
+			"9999.0": "Refused"
+		},
+		"reference_level": "69",
+		"var_type": "float32",
+    "question": "About how tall are you without shoes?",
+		"section": "Demographics"
+	},
+	"ALCDAY4": {
+		"var_map": {
+			"888.0": "200",
+			"777.0": "Don't know",
+			"999.0": "Refused"
+		},
+		"var_type": "float32",
+		"reference_level": "0",
+    "question": "During the past 30 days, how many days per week or per month did you have at least one drink of any alcoholic beverage?",
+		"section": "Health Status"
+	},
+	"FLUSHOT7": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Yes",
+	  "question": "During the past 12 months, have you had either a flu vaccine that was sprayed in your nose or a flu shot injected into your arm?",
+		"section": "Immunization"
+	},
+	"PNEUVAC4": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Yes",
+	  "question": "Have you ever had a pneumonia shot also known as a pneumococcal vaccine?",
+		"section": "Immunization"
+	},
+	"TETANUS1": {
+		"var_map": {
+			"1.0": "Yes, TDAP",
+			"2.0": "Yes, no TDAP",
+			"3.0": "Yes, not sure",
+			"4.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Yes, TDAP",
+	  "question": "Have you received a tetanus shot in the past 10 years?",
+		"section": "Immunization"
+	},
+	"HIVTST7": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "No",
+	  "question": "Including fluid testing from your mouth, but not including tests you may have had for blood donation, have you ever been tested for H.I.V?",
+		"section": "H.I.V./AIDS"
+	},
+	"HIVRISK5": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "No",
+	  "question": "Do any of the situations apply to you? You have injected any drug other than those prescribed for you in the past year. You have been treated for a sexually transmitted disease or STD in the past year. You have given or received money or drugs in exchange for sex in the past year. You had anal sex without a condom in the past year. You had four or more sex partners in the past year.",
+		"section": "H.I.V./AIDS"
+	},
+	"COVIDPOS": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "Home test",
+			"3.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"var_type": "category",
+		"reference_level": "Home test",
+	  "question": "Has a doctor, nurse, or other health professional ever told you that you tested positive for COVID 19?",
+		"section": "COVID"
+	},
+	"SMOKE100": {
+		"var_map": {
+			"1.0": "Yes",
+			"2.0": "No",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"response_map": {
+			"Yes": "1",
+			"No": "0",
+			"Don't know": "NA",
+			"Refused": "NA"
+		},
+		"var_type": "category",
+		"question": "Have you smoked at least 100 cigarettes in your entire life?"
+	},
+	"SMOKDAY2": {
+		"var_map": {
+			"1.0": "Every day",
+			"2.0": "Some days",
+			"3.0": "Not at all",
+			"7.0": "Don't know",
+			"9.0": "Refused"
+		},
+		"response_map": {
+			"Every day": "At least some days",
+			"Some days": "At least some days",
+			"Not at all": "Not at all",
+			"Don't know": "NA",
+			"Refused": "NA"
+		},
+		"var_type": "category",
+		"question": "Do you now smoke cigarettes every day, some days, or not at all?"
+	}
+}
