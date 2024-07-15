@@ -16,9 +16,6 @@ var_dict = json.load(open('var_categories_default.json'))
 st.header('Survey Response Relationship Visualization')
 st.markdown('Select two variables from the BRFSS dataset to visualize their relationship.')
 
-if 'stage' not in st.session_state:
-   st.session_state['stage'] = 'start'
-
 option1 = st.selectbox('Select the first variable', var_dict.keys())
 l = list(var_dict.keys())
 l.remove(option1)
@@ -50,7 +47,7 @@ def create_crosstab(df, x_name, y_name):
     return fig
 
 if st.button('Get Prediction'):
-  if st.session_state['stage'] == 'start':
+  if 'df' not in st.session_state:
     with st.spinner('Downloading data...'):
       df = a = pd.read_sas('https://www.cdc.gov/brfss/annual_data/2022/files/LLCP2022XPT.zip', compression = 'zip', format = 'xport')
     with st.spinner('Preprocessing data...'):
